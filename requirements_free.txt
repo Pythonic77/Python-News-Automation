@@ -1,0 +1,19 @@
+# Modern_USA_News Free Automation - Requirements
+# All packages are free and open source
+
+# Core
+feedparser==6.0.11
+requests==2.31.0
+schedule==1.2.1
+
+# Web Dashboard
+flask==3.0.0
+
+# Image Generation (PIL)
+Pillow==10.2.0
+
+# Optional: Better text processing
+beautifulsoup4==4.12.3
+
+# Optional: Local LLM (Ollama is installed separately)
+# Ollama client (API calls use requests)
